@@ -1,5 +1,5 @@
 [build]
-publish = "exampleSite/public"
+publish = "https://imaginative-heliotrope-a6e7d7.netlify.app/public"
 
 [build.environment]
 NODE_VERSION = "18.12.0"
