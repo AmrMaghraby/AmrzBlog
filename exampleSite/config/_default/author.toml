@@ -1,9 +1,9 @@
-name = "Razon Yang"
+name = "Amr Maghraby"
 # avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
-bio = "Gopher, PHPer, Full Stack Engineer."
-company = 'Company'
+bio = "Full Stack Engineer"
+company = 'Webalo'
 # company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
-location = "Earth"
+location = "Egypt"
 # alternatives:
 # location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
 # location = "<a href='https://www.google.com/maps/search/Earth'>Earth</a>"
@@ -13,9 +13,9 @@ location = "Earth"
   #layout = "compact"
 
 [social]
-  email = "razonyang@gmail.com"
-  github = "razonyang/hugo-theme-bootstrap"
-  twitter = "yourtwitterusername"
-  patreon = "razonyang"
-  paypal = "razonyang"
+  email = "amr.alkeleay@gmail.com"
+  github = "https://github.com/AmrMaghraby"
+  twitter = "https://twitter.com/IAm3amour"
+  # patreon = "razonyang"
+  # paypal = "razonyang"
   # rss = "" # Disable RSS link
