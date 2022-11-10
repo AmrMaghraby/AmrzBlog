@@ -1,4 +1,4 @@
-mainSections = ["posts", "docs"] # Default to ["posts"].
+mainSections = ["blog", "posts", "news"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
@@ -11,7 +11,7 @@ keywords = "Hugo, Bootstrap, Blog Theme"
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 # logo = false # Disable Logo
-brand = "Docs v1"
+brand = "TheMaghrabyBlog"
 
 palette = "purple" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # palettes = ["blue", "blue gray", "purple"] # Available palettes. Default to ALL.
@@ -34,9 +34,9 @@ googleAdsense = ""
 # breadcrumbDivider = ">" # Breadcrumb divider
 # diagram = true
 # socialShare = false # disable social network sharing
-# searchBar = false # disable search-bar
+searchBar = false # disable search-bar
 
-# poweredBy = false # Whether to show powered by.
+poweredBy = false # Whether to show powered by.
 
 # readingTime = false # Whether to display the reading time.
 # postDate = false # Whether to display the post date in the post meta section.
@@ -132,10 +132,10 @@ viewer = true # Image Viewer
   # nd = true # No derivatives or adaptations of your work are permitted.
   # sa = true # Adaptations must be shared under the same terms.
 
-# [utterances]
-  # repo = "razonyang/hugo-theme-bootstrap" # Replace with your repository.
+[utterances]
+  repo = "AmrMaghraby/AmrzBlog" # Replace with your repository.
   # issueTerm = "pathname" # pathname, url, title, og:title
-  # label = "comment"
+  label = "comment"
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
   # theme = ""
@@ -168,7 +168,7 @@ viewer = true # Image Viewer
   # lazyLoading = false # Default to true.
 
 [search]
-  # paginate = 5 # Pagination. Default to 10.
+  paginate = 5 # Pagination. Default to 10.
   # resultContentCharactersCount = 20 # The maximum characters count of result content for displaying.
   indexPaginate = 100 # The number of pages per index file. Default to 1000.
   # indexPreload = false # Do not preload index files.
@@ -177,8 +177,8 @@ viewer = true # Image Viewer
     # ignoreLocation = true
     # location = 0
     # isCaseSensitive = true
-    minMatchCharLength = 3
-    # threshold = 0.6
+    # minMatchCharLength = 3
+    threshold = 0.1
     # distance = 100
     # findAllMatches = true
     # ignoreFieldNorm = true
@@ -193,17 +193,17 @@ viewer = true # Image Viewer
 #  # debug = true
 
 [reward]
-  alipay = "images/reward/alipay.png"
-  wechat = "images/reward/wechat.png"
-  #paypal = "images/reward/paypal.png"
-  #patreon = "images/reward/patreon.png"
-  #liberapay = "images/reward/liberapay.png"
+  # alipay = "images/reward/alipay.png"
+  # wechat = "images/reward/wechat.png"
+  # paypal = "images/reward/paypal.png"
+  # patreon = "images/reward/patreon.png"
+  # liberapay = "images/reward/liberapay.png"
 
 #[share]
   #addThis = "" # AddThis pubid.
 
-# [actionsPanel]
-  # disabled = true
+[actionsPanel]
+  disabled = false
 
 [fontSize] # Comment or remove this settings to disable font size switcher.
   # extraSmall = ".8rem"
@@ -214,7 +214,7 @@ viewer = true # Image Viewer
 [pwa]
   [pwa.manifest]
     # name = "" # Default to site title.
-    short_name = "HBS"
+    short_name = "3amour"
     # display = "fullscreen" # Default to standalone.
     # description = "" # Default to site description.
     # theme_color = ""
@@ -246,11 +246,11 @@ viewer = true # Image Viewer
     # ]
 
 [contact]
-  endpoint = "https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd" # Backend endpoint, remove this line if you're using Netlify.
+  endpoint = "https://getform.io/f/b688dcf6-2d45-4906-8f5b-66b76f144b92" # Backend endpoint, remove this line if you're using Netlify.
   # file = true # Enable file upload
   # fileField = "image" # The name of file field.
-  [contact.reCaptcha]
-    siteKey = "6LcWQH0gAAAAAJPZN9S-wrugRUukNOiHfxmFOSM5"
+  #[contact.reCaptcha]
+  #  siteKey = "6LcWQH0gAAAAAJPZN9S-wrugRUukNOiHfxmFOSM5"
 
 [repo]
   url = "https://github.com/razonyang/hugo-theme-bootstrap"
@@ -261,19 +261,19 @@ viewer = true # Image Viewer
 # [fullWidthInSections]
   # docs = true
 
-[topAppBar]
+# [topAppBar]
   # colorToggle = false # Disable the color toggle
   # coloredInDark = true # Colored in dark mode
   # dropdownMenuToggle = false # Hide the dropdown menu toggle.
-  [topAppBar.social]
-    github = "razonyang/hugo-theme-bootstrap"
-    patreon = "razonyang"
-    paypal = "razonyang"
+  # [topAppBar.social]
+    # github = "razonyang/hugo-theme-bootstrap"
+    # patreon = "razonyang"
+    # paypal = "razonyang"
     # rss = "" # Disable RSS link
 
-[docs]
-  [docs.nav]
+# [docs]
+#  [docs.nav]
     # expand = true # Expand docs navigations.
 
-[feeds]
+# [feeds]
   # content = true
